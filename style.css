@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+#container
+{
+    height: 450px;
+    width:600px;
+    background-color: #888;
+    margin: 50px auto;
+    position: relative;
+}
+body{
+    background-color: #444;
+}
+.square{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border: 0.5px solid black;
+
+}
+.platform{
+    width:100px;
+    height: 7px;
+    position: absolute;
+    background-color: green;
+    bottom: 10px;
+}
